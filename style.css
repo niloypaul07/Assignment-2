@@ -377,14 +377,13 @@ padding: 40px 0;
     grid-template-columns: repeat(2 , 1fr);
     gap: 40px;
 }
-.about hr{
-    margin-top: 40px;
-    margin-bottom: 40px;
 
-}
 .about-counter-info h1{
     color: #00FF88;
     font-size: 40px;
+}
+.about hr{
+    margin: 40px 20px;
 }
 
 }
@@ -395,6 +394,9 @@ padding: 40px 0;
 @media screen and (min-width:576px) and (max-width:992px) {
     header {
         padding: 0 20px;
+    }
+    .about-content{
+        width: 100%;
     }
 }
 
