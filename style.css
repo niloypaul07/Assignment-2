@@ -601,9 +601,7 @@ iframe {
     .featured-container-main {
         display: flex;
         flex-direction: column;
-
         gap: 16px;
-        padding-bottom: 40px;
         margin: 0 20px;
     }
 
@@ -723,15 +721,14 @@ iframe {
         padding-bottom: 40px;
         margin: 0 20px;
     }
-.host {
+ .host-icon {
         display: flex;
-        align-items: center;
-        flex-direction: column;
-        gap: 16px;
+        align-items: flex-start;
+        gap: 8px;
+        justify-content: flex-start;
+    }
+    .host{
         margin: 0 20px;
-        text-align: center;
-
-
     }
 
 }
