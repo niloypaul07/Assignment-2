@@ -479,6 +479,7 @@ footer {
     gap: 40;
     justify-items: center;
     align-items: center;
+    
 }
 
 .footer-icon-content {
@@ -487,6 +488,8 @@ footer {
     align-items: center;
     gap: 8px;
     margin: 32px 0;
+    align-items: center;
+    
 
 }
 
@@ -707,6 +710,7 @@ footer {
         flex-direction: column;
         gap: 16px;
         margin: 0 20px;
+
     }
 
     iframe,
@@ -790,11 +794,12 @@ footer {
     .footer-icon {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 0;
+        column-gap: 0px;
         justify-items: center;
         align-items: center;
-        place-items: center;
         margin: 24px 0;
+        text-align: center;
+        
     }
 
     .footer-icon-content {
@@ -803,6 +808,7 @@ footer {
         align-items: center;
         gap: 8px;
         margin: 5px;
+        text-align: center;
 
     }
 
@@ -812,22 +818,25 @@ footer {
         color: #FFFFFF;
     }
 
-    .copyright p {
-        font-size: 16px;
-        line-height: 24px;
-        color: #FFFFFF;
-        font-weight: 400;
-
-    }
-
     .footer-hr {
-        border: none;
-        height: 1px;
-        background-color: rgba(255, 255, 255, 0.2);
-        margin: 0 auto 5px;
-        width: 100%
-    }
-
+    border: none;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 auto 5px;
+    width: 100%;
+}
+.footer-icon-1{
+    margin-left: 30px;
+}
+.footer-icon-2{
+    margin-right: 30px;
+}
+.footer-icon-3{
+    margin-left: 80px;
+}
+.footer-icon-4{
+    margin-right: 30px;
+}
 
 }
 
@@ -905,6 +914,13 @@ footer {
     .host {
         margin: 0 20px;
     }
+       .footer-hr {
+    border: none;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 auto 5px;
+    width: 800px;
+}
 
 }
 
